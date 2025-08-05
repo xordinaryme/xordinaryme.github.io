@@ -9,6 +9,7 @@ const texts = [
     "Tech Explorer",
     "Casual Gamer",
     "Creative Thinker",
+    "Vibe coder"
 ];
 
 let textIndex = 0;
