@@ -2,8 +2,13 @@
 const texts = [
     "UI/UX Designer",
     "Web Developer",
+    "Graphic Designer",
     "Frontend Engineer",
-    "Problem Solver"
+    "Visual Storyteller"
+    "Automation Enthusiast",
+    "Tech Explorer",
+    "Casual Gamer",
+    "Creative Thinker",
 ];
 
 let textIndex = 0;
