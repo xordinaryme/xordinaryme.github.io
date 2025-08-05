@@ -4,12 +4,12 @@ const texts = [
     "Web Developer",
     "Graphic Designer",
     "Frontend Engineer",
-    "Visual Storyteller"
+    "Visual Storyteller",
     "Automation Enthusiast",
     "Tech Explorer",
     "Casual Gamer",
     "Creative Thinker",
-    "Vibe coder"
+    "Vibe coder",
 ];
 
 let textIndex = 0;
