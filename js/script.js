@@ -1,15 +1,8 @@
-// Typing Animation
 const texts = [
     "UI/UX Designer",
     "Web Developer",
     "Graphic Designer",
     "Frontend Engineer",
-    "Visual Storyteller",
-    "Automation Enthusiast",
-    "Tech Explorer",
-    "Casual Gamer",
-    "Creative Thinker",
-    "Vibe coder",
 ];
 
 let textIndex = 0;
