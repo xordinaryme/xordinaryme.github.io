@@ -4,19 +4,146 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mohammad Iqbal Ramadhan - Portfolio</title>
-
-    <!-- External CSS -->
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <!-- Navigation -->
-    <nav id="navbar"></nav>
+    <nav>
+        <div class="container nav-container">
+            <div class="logo">Mohammad Iqbal</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
 
-    <!-- Page sections -->
-    <section id="home"   data-include="sections/hero.html"></section>
-    <section id="about"  data-include="sections/about.html"></section>
-    <section id="skills" data-include="sections/skills.html"></section>
-    <section id="contact" data-include="sections/contact.html"></section>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Mohammad Iqbal Ramadhan</h1>
+                <div class="typing-container">
+                    <span id="typed-text" class="typed-text"></span>
+                    <span class="cursor"></span>
+                </div>
+                <p class="hero-description">
+                    UI/UX Designer and Web Developer crafting clean, functional digital experiences. 
+                    Based in Indramayu, West Java, focusing on modern web technologies and user-centered design.
+                </p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="https://xordinaryme.github.io" class="btn btn-secondary">View Work</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        I'm a passionate designer and developer who believes in creating digital 
+                        experiences that are both beautiful and purposeful. Currently working on 
+                        expanding my portfolio and exploring new technologies.
+                    </p>
+                    <p>
+                        I enjoy collaborating on open source projects and have a keen interest 
+                        in automation and process optimization. Always eager to learn and adapt 
+                        to the evolving landscape of web development.
+                    </p>
+                    <p>
+                        When I'm not coding, I'm exploring new design trends, contributing to 
+                        the developer community, or working on personal projects that challenge 
+                        my skills and creativity.
+                    </p>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number">3+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Projects</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label">Technologies</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Dedication</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">JavaScript</div>
+                        <div class="skill-item">TypeScript</div>
+                        <div class="skill-item">Python</div>
+                        <div class="skill-item">Java</div>
+                        <div class="skill-item">HTML5 & CSS3</div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">React</div>
+                        <div class="skill-item">Next.js</div>
+                        <div class="skill-item">Tailwind CSS</div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">Node.js</div>
+                        <div class="skill-item">Express.js</div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">Git & GitHub</div>
+                        <div class="skill-item">VS Code</div>
+                        <div class="skill-item">Design Systems</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-content">
+                <p>
+                    Let's collaborate on your next project. I'm always interested in discussing 
+                    new opportunities and creative challenges.
+                </p>
+                <div class="contact-links">
+                    <a href="mailto:Mohammadiqbalramadhan21@gmail.com" class="contact-link">Email</a>
+                    <a href="https://linkedin.com/in/mohammad-iqbal-ramadhan" class="contact-link">LinkedIn</a>
+                    <a href="https://xordinaryme.github.io" class="contact-link">Portfolio</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <footer class="footer">
         <div class="container">
@@ -24,7 +151,6 @@
         </div>
     </footer>
 
-    <!-- JavaScript -->
-    <script src="js/app.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
